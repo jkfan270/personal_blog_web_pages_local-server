@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type= "text/css" href="login_page.css">
+<meta charset="UTF-8">
+<title>Make Post</title>
+<script type="text/javascript" src="validate.js"></script>  
+</head>
+
+<body class="postbackground">
+
+<div class="bigframe">
+<nav>
+	<ul class="navigator">
+  		<li><a class="active" href="post_list_page.html">Home</a></li>
+  		<li><a class="active" href="#moments">Moments</a></li>
+ 		<li><a class="active" href="#notifications">Notifications</a></li>
+ 		<li><a class="active" href="#messages">Messages</a></li>
+ 		<li><a class="active" href="new_post.html">Make Post</a></li>
+ 		<li style="float:right;"><a class="active" href="login_page.html">Log out</a></li>
+	</ul>
+</nav>
+
+<div style="position:absolute; left:40%;top:10%;">
+<div class="form" style="height:200px;width:350px;">
+<form id="postForm" method="post">  
+<table>
+	<tr><td><p class="font2" style="color:#888888;font-size:12px;position:absolute; left:30%;top:5%;">Write your own</p></td></tr>
+	<tr><td><textarea onkeyup="size(this);" style="height:100px;width:320px;" placeholder="What's happending?"></textarea></td></tr>
+	<tr><td><label id="text_msg" class="err_msg"></label></td></tr>
+	<tr><td><small class="text_msg" >You can type maximum 250 words. Remain：<span id="check_text" class="text_msg">250</span></small></td></tr>
+	<tr><td><button>Post</button></td></tr>
+</table>
+</form>
+</div>
+</div>
+
+
+</div>
+</body>
+</html>

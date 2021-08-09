@@ -1,0 +1,284 @@
+@charset "UTF-8";
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+body {
+	min-height:100%;
+}
+
+.login_page{
+	padding:10% 0 0; 
+	margin:auto;
+	float:right; 
+	width:550px;
+}
+
+.form{
+	position:relatvie;
+	background:white;
+	width:250px;
+	margin:auto;
+	padding:45px;
+	text-align:center;
+}
+
+.form input{
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	margin:10px 0 15px;
+	padding:15px;
+	font-size:14px;
+	-webkit-box-shadow: inset 0 1px 1px #9ecaed;
+    box-shadow: inset 0 1px 1px #9ecaed;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+}
+
+input:focus{
+	border-color: #9ecaed;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px #9ecaed,0 0 8px #9ecaed;
+	box-shadow: inset 0 1px 1px #9ecaed,0 0 8px #9ecaed;
+}
+
+.form button{
+	font-family: 'Open Sans', sans-serif;
+    background: #1E90FF;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+
+.msg{
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.msg a{
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.background{
+	background:url(hexagon.jpg);
+	position:absolute;
+	z-index:-1;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-size:cover;
+}
+
+.background span{
+	position:absolute;
+	font-family: 'Impact', sans-serif;
+	top:20%;
+	left:15%;
+	font-size:40px;
+	color:white;
+	text-shadow: 2px 2px 2px #888888;
+}
+
+.background footer{
+	position:absolute;
+	bottom:0;
+	background-color:#F0F0F0;
+	height:5%;
+	width:100%;
+}
+
+.postbackground{
+	background:url(room_001.png);
+	background-size:cover;
+}
+
+li{
+	list-style:none;
+	margin:0 15px;
+	text-align:center;
+	display:inline-block;
+	font-size:10px;
+	
+}
+
+.li:profile{
+	text-align:center;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+.navigator{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #48A1EC;
+    box-shadow: 5px 5px 5px #888888;
+    text-align:left;
+    width:100%;
+    font-weight:bold;
+}
+
+.effect{
+	float: left;
+}
+
+.active{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:15px;
+}
+
+.active:hover{
+	background-color: #0080FF;
+}
+
+.bigframe{
+	margin-left:8%;
+	margin-right:8%;
+}
+
+.frame{
+	position:absolute;
+	top:8%;
+	left:9%;
+	background:#FFFFFF;
+	width:15%;
+	height:40%;
+}
+
+.font{
+	font-family:"Roboto", sans-serif;
+	font-size:18px;
+	top:40px;
+}
+
+
+.tweet{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.font2{
+	font-family:"Roboto", sans-serif;
+	font-size:15px;
+	text-align: center;
+	width:30%;
+}
+
+.icon{
+	margin-left:30px; 
+	margin-top:40px;
+}
+
+.frame_post{
+	position:relative;
+	top:25px;
+	left:26%;
+	background:#FFFFFF;
+	width:37%;
+	height:300px;
+}
+
+.frame_post2{
+	top:72%;
+	left:26%;
+	background:#FFFFFF;
+	width:37%;
+	height:62%;
+}
+
+.frame_1{
+	position:absolute;
+	top:8%;
+	right:8.8%;
+	background:#FFFFFF;
+	width:25%;
+	height:65%;
+}
+
+.frame_2{
+	position:absolute;
+	top:50%;
+	left:9%;
+	background:#FFFFFF;
+	width:15%;
+	height:65%;
+}
+
+.frame_3{
+	position:absolute;
+	top:8%;
+	left:26%;
+	background:#FFFFFF;
+	width:40%;
+	height:62%;
+}
+
+.post{
+	position:absolute;
+	display:inline;
+	background:#FFFFFF;
+	width:450px;
+	height:100px;
+	margin:auto;
+	padding:45px;
+	text-align:center;
+}
+
+.link{
+	text-decoration:none;
+	color:#48A1EC;
+	font-weight:bold;
+}
+
+.err_msg{
+	color:red;
+	font-size:12px;
+}
+
+.tag{
+	position:absolute;
+	top:5%;
+	right:5.2%;
+	font-size:30px;
+	letter-spacing:-1.5px;
+}
+
+.text_msg{
+	color:#888888;
+	font-size:12px;
+}
+
+#image-file{
+	margin:auto;
+	width:62%;
+}
+
+.count{
+	color:red;
+}
+
+.buttonBox{
+	border-style:inset;
+}
+
+.buttonCenter{
+	border-style:hidden;
+}
